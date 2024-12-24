@@ -1,0 +1,2610 @@
+2024-12-20 04:29:09 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "serev". in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('serev', Array)
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('serev', Array)
+#2 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 C:\xampp 10\basic10\basic\yii(20): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "serev". in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('serev', Array)
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 C:\xampp 10\basic10\basic\yii(20): yii\base\Application->run()
+#3 {main}
+2024-12-20 04:29:08 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\arsen comp\\AppData\\Roaming'
+    'CHROME_CRASHPAD_PIPE_NAME' => '\\\\.\\pipe\\crashpad_1992_SOTUNVMRHHFAYYIC'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-DRQV1CT'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\arsen comp'
+    'LOCALAPPDATA' => 'C:\\Users\\arsen comp\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-DRQV1CT'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\arsen comp\\OneDrive'
+    'OneDriveConsumer' => 'C:\\Users\\arsen comp\\OneDrive'
+    'ORIGINAL_XDG_CURRENT_DESKTOP' => 'undefined'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\arsen comp\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\arsen comp\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\arsen comp\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\arsen comp\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 142 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '8e09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Users\\arsen comp\\OneDrive\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ARSENC~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ARSENC~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-DRQV1CT'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-DRQV1CT'
+    'USERNAME' => 'arsen comp'
+    'USERPROFILE' => 'C:\\Users\\arsen comp'
+    'windir' => 'C:\\Windows'
+    'ZES_ENABLE_SYSMAN' => '1'
+    'TERM_PROGRAM' => 'vscode'
+    'TERM_PROGRAM_VERSION' => '1.95.3'
+    'LANG' => 'en_US.UTF-8'
+    'COLORTERM' => 'truecolor'
+    'GIT_ASKPASS' => 'c:\\Users\\arsen comp\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass.sh'
+    'VSCODE_GIT_ASKPASS_NODE' => 'C:\\Users\\arsen comp\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe'
+    'VSCODE_GIT_ASKPASS_EXTRA_ARGS' => ''
+    'VSCODE_GIT_ASKPASS_MAIN' => 'c:\\Users\\arsen comp\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass-main.js'
+    'VSCODE_GIT_IPC_HANDLE' => '\\\\.\\pipe\\vscode-git-934d1d3560-sock'
+    'VSCODE_INJECTION' => '1'
+    'VSCODE_NONCE' => '25cef3b6-a36e-4ec2-aec1-3b60268acea9'
+    'VSCODE_STABLE' => '1'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1734665348.876
+    'REQUEST_TIME' => 1734665348
+    'argv' => [
+        0 => 'yii'
+        1 => 'serev'
+    ]
+    'argc' => 2
+]
+2024-12-20 04:41:40 [::1][-][fam74u5m8pa0egk1beu6i0n671][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "produksi". in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('produksi', Array)
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2024-12-20 04:41:40 [::1][-][fam74u5m8pa0egk1beu6i0n671][info][application] $_GET = [
+    'r' => 'produksi'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'fam74u5m8pa0egk1beu6i0n671'
+    '_csrf' => '7a335a9bfc9e0eee2ddc2d0e0e385345eac9641d96d81d497e770d0cf865d2e7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sFjdggrdU--g42t-AvSu6DmQ7HoG4b3f\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp 10\\basic10\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '64614'
+    'SERVER_SOFTWARE' => 'PHP 8.0.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=produksi'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp 10\\basic10\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=produksi'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=fam74u5m8pa0egk1beu6i0n671; _csrf=7a335a9bfc9e0eee2ddc2d0e0e385345eac9641d96d81d497e770d0cf865d2e7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sFjdggrdU--g42t-AvSu6DmQ7HoG4b3f%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1734666100.7111
+    'REQUEST_TIME' => 1734666100
+]
+2024-12-20 04:41:50 [::1][-][fam74u5m8pa0egk1beu6i0n671][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "produksi". in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('produksi', Array)
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2024-12-20 04:41:50 [::1][-][fam74u5m8pa0egk1beu6i0n671][info][application] $_GET = [
+    'r' => 'produksi'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'fam74u5m8pa0egk1beu6i0n671'
+    '_csrf' => '7a335a9bfc9e0eee2ddc2d0e0e385345eac9641d96d81d497e770d0cf865d2e7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sFjdggrdU--g42t-AvSu6DmQ7HoG4b3f\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp 10\\basic10\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '64625'
+    'SERVER_SOFTWARE' => 'PHP 8.0.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=produksi'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp 10\\basic10\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=produksi'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=fam74u5m8pa0egk1beu6i0n671; _csrf=7a335a9bfc9e0eee2ddc2d0e0e385345eac9641d96d81d497e770d0cf865d2e7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sFjdggrdU--g42t-AvSu6DmQ7HoG4b3f%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1734666110.8902
+    'REQUEST_TIME' => 1734666110
+]
+2024-12-20 04:42:10 [::1][-][fam74u5m8pa0egk1beu6i0n671][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "produksi". in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('produksi', Array)
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2024-12-20 04:42:10 [::1][-][fam74u5m8pa0egk1beu6i0n671][info][application] $_GET = [
+    'r' => 'produksi'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'fam74u5m8pa0egk1beu6i0n671'
+    '_csrf' => '7a335a9bfc9e0eee2ddc2d0e0e385345eac9641d96d81d497e770d0cf865d2e7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sFjdggrdU--g42t-AvSu6DmQ7HoG4b3f\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp 10\\basic10\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '64651'
+    'SERVER_SOFTWARE' => 'PHP 8.0.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=produksi'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp 10\\basic10\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=produksi'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=fam74u5m8pa0egk1beu6i0n671; _csrf=7a335a9bfc9e0eee2ddc2d0e0e385345eac9641d96d81d497e770d0cf865d2e7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sFjdggrdU--g42t-AvSu6DmQ7HoG4b3f%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1734666130.7446
+    'REQUEST_TIME' => 1734666130
+]
+2024-12-23 03:56:39 [::1][-][nvhm4fkjgb0ees87kg59rbiasu][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "produk". in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('produk', Array)
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2024-12-23 03:56:39 [::1][-][nvhm4fkjgb0ees87kg59rbiasu][info][application] $_GET = [
+    'r' => 'produk'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nvhm4fkjgb0ees87kg59rbiasu'
+    '_csrf' => 'd98979d3d473b3116ba221ca84caf11ca7cb41ab7bc7a53fc77a8fd663d20abda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"50u_NI4K8KgAzgGNka3fLaQcMmD2MGWu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp 10\\basic10\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '61572'
+    'SERVER_SOFTWARE' => 'PHP 8.0.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=produk'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp 10\\basic10\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=produk'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=nvhm4fkjgb0ees87kg59rbiasu; _csrf=d98979d3d473b3116ba221ca84caf11ca7cb41ab7bc7a53fc77a8fd663d20abda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2250u_NI4K8KgAzgGNka3fLaQcMmD2MGWu%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1734922599.858
+    'REQUEST_TIME' => 1734922599
+]
+2024-12-23 04:20:13 [::1][-][nvhm4fkjgb0ees87kg59rbiasu][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "produk". in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('produk', Array)
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2024-12-23 04:20:13 [::1][-][nvhm4fkjgb0ees87kg59rbiasu][info][application] $_GET = [
+    'r' => 'produk'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nvhm4fkjgb0ees87kg59rbiasu'
+    '_csrf' => 'd98979d3d473b3116ba221ca84caf11ca7cb41ab7bc7a53fc77a8fd663d20abda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"50u_NI4K8KgAzgGNka3fLaQcMmD2MGWu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp 10\\basic10\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '61992'
+    'SERVER_SOFTWARE' => 'PHP 8.0.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=produk'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp 10\\basic10\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=produk'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=nvhm4fkjgb0ees87kg59rbiasu; _csrf=d98979d3d473b3116ba221ca84caf11ca7cb41ab7bc7a53fc77a8fd663d20abda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2250u_NI4K8KgAzgGNka3fLaQcMmD2MGWu%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1734924013.5684
+    'REQUEST_TIME' => 1734924013
+]
+2024-12-23 06:05:58 [::1][-][6igqq31vqppvngdjom0bgs02iv][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [1044] Access denied for user 'admin'@'%' to database 'db_toko' in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php:722
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(722): PDO->__construct('mysql:host=192....', 'admin', 'admin123', NULL)
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(637): yii\db\Connection->createPdoInstance()
+#2 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#3 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#4 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo(true)
+#5 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(1181): yii\db\Command->prepare(true)
+#6 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(417): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(366): yii\db\Command->queryAll()
+#8 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(134): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema('kasir')
+#10 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata('kasir', 'schema', false)
+#11 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(439): yii\db\Schema->getTableSchema('kasir')
+#12 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(473): yii\db\ActiveRecord::getTableSchema()
+#13 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(498): yii\db\ActiveRecord->attributes()
+#14 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(289): yii\db\BaseActiveRecord->hasAttribute('id_kasir')
+#15 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\validators\Validator.php(257): yii\db\BaseActiveRecord->__get('id_kasir')
+#16 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Model.php(368): yii\validators\Validator->validateAttributes(Object(app\models\KasirSearch), Array)
+#17 C:\xampp 10\basic10\basic\models\KasirSearch.php(53): yii\base\Model->validate()
+#18 C:\xampp 10\basic10\basic\controllers\KasirController.php(42): app\models\KasirSearch->search(Array)
+#19 [internal function]: app\controllers\KasirController->actionIndex()
+#20 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#21 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#22 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('', Array)
+#23 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('kasir', Array)
+#24 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#26 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [1044] Access denied for user 'admin'@'%' to database 'db_toko' in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php:648
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#2 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo(true)
+#3 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(1181): yii\db\Command->prepare(true)
+#4 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(417): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(366): yii\db\Command->queryAll()
+#6 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(134): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema('kasir')
+#8 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata('kasir', 'schema', false)
+#9 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(439): yii\db\Schema->getTableSchema('kasir')
+#10 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(473): yii\db\ActiveRecord::getTableSchema()
+#11 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(498): yii\db\ActiveRecord->attributes()
+#12 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(289): yii\db\BaseActiveRecord->hasAttribute('id_kasir')
+#13 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\validators\Validator.php(257): yii\db\BaseActiveRecord->__get('id_kasir')
+#14 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Model.php(368): yii\validators\Validator->validateAttributes(Object(app\models\KasirSearch), Array)
+#15 C:\xampp 10\basic10\basic\models\KasirSearch.php(53): yii\base\Model->validate()
+#16 C:\xampp 10\basic10\basic\controllers\KasirController.php(42): app\models\KasirSearch->search(Array)
+#17 [internal function]: app\controllers\KasirController->actionIndex()
+#18 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#19 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#20 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('', Array)
+#21 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('kasir', Array)
+#22 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#24 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 1044
+    [2] => Access denied for user 'admin'@'%' to database 'db_toko'
+)
+
+2024-12-23 06:05:57 [::1][-][6igqq31vqppvngdjom0bgs02iv][info][application] $_GET = [
+    'r' => 'kasir'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '6igqq31vqppvngdjom0bgs02iv'
+    '_csrf' => '3c8a4af98fae9be1108e65ed826682a20d0526131f165af38b8fef06daa2301aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"R2ifvf2FYalew5UwbxdVbYQZfZPDyBZK\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp 10\\basic10\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '64960'
+    'SERVER_SOFTWARE' => 'PHP 8.0.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=kasir'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp 10\\basic10\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=kasir'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_SEC_PURPOSE' => 'prefetch;prerender'
+    'HTTP_PURPOSE' => 'prefetch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=6igqq31vqppvngdjom0bgs02iv; _csrf=3c8a4af98fae9be1108e65ed826682a20d0526131f165af38b8fef06daa2301aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22R2ifvf2FYalew5UwbxdVbYQZfZPDyBZK%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1734930357.2855
+    'REQUEST_TIME' => 1734930357
+]
+2024-12-23 06:05:59 [::1][-][6igqq31vqppvngdjom0bgs02iv][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [1044] Access denied for user 'admin'@'%' to database 'db_toko' in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php:722
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(722): PDO->__construct('mysql:host=192....', 'admin', 'admin123', NULL)
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(637): yii\db\Connection->createPdoInstance()
+#2 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#3 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#4 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo(true)
+#5 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(1181): yii\db\Command->prepare(true)
+#6 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(417): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(366): yii\db\Command->queryAll()
+#8 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(134): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema('kasir')
+#10 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata('kasir', 'schema', false)
+#11 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(439): yii\db\Schema->getTableSchema('kasir')
+#12 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(473): yii\db\ActiveRecord::getTableSchema()
+#13 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(498): yii\db\ActiveRecord->attributes()
+#14 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(289): yii\db\BaseActiveRecord->hasAttribute('id_kasir')
+#15 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\validators\Validator.php(257): yii\db\BaseActiveRecord->__get('id_kasir')
+#16 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Model.php(368): yii\validators\Validator->validateAttributes(Object(app\models\KasirSearch), Array)
+#17 C:\xampp 10\basic10\basic\models\KasirSearch.php(53): yii\base\Model->validate()
+#18 C:\xampp 10\basic10\basic\controllers\KasirController.php(42): app\models\KasirSearch->search(Array)
+#19 [internal function]: app\controllers\KasirController->actionIndex()
+#20 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#21 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#22 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('', Array)
+#23 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('kasir', Array)
+#24 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#26 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [1044] Access denied for user 'admin'@'%' to database 'db_toko' in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php:648
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#2 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo(true)
+#3 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(1181): yii\db\Command->prepare(true)
+#4 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(417): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(366): yii\db\Command->queryAll()
+#6 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(134): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema('kasir')
+#8 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata('kasir', 'schema', false)
+#9 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(439): yii\db\Schema->getTableSchema('kasir')
+#10 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(473): yii\db\ActiveRecord::getTableSchema()
+#11 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(498): yii\db\ActiveRecord->attributes()
+#12 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(289): yii\db\BaseActiveRecord->hasAttribute('id_kasir')
+#13 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\validators\Validator.php(257): yii\db\BaseActiveRecord->__get('id_kasir')
+#14 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Model.php(368): yii\validators\Validator->validateAttributes(Object(app\models\KasirSearch), Array)
+#15 C:\xampp 10\basic10\basic\models\KasirSearch.php(53): yii\base\Model->validate()
+#16 C:\xampp 10\basic10\basic\controllers\KasirController.php(42): app\models\KasirSearch->search(Array)
+#17 [internal function]: app\controllers\KasirController->actionIndex()
+#18 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#19 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#20 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('', Array)
+#21 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('kasir', Array)
+#22 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#24 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 1044
+    [2] => Access denied for user 'admin'@'%' to database 'db_toko'
+)
+
+2024-12-23 06:05:59 [::1][-][6igqq31vqppvngdjom0bgs02iv][info][application] $_GET = [
+    'r' => 'kasir'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '6igqq31vqppvngdjom0bgs02iv'
+    '_csrf' => '3c8a4af98fae9be1108e65ed826682a20d0526131f165af38b8fef06daa2301aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"R2ifvf2FYalew5UwbxdVbYQZfZPDyBZK\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp 10\\basic10\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '64964'
+    'SERVER_SOFTWARE' => 'PHP 8.0.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=kasir'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp 10\\basic10\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=kasir'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=6igqq31vqppvngdjom0bgs02iv; _csrf=3c8a4af98fae9be1108e65ed826682a20d0526131f165af38b8fef06daa2301aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22R2ifvf2FYalew5UwbxdVbYQZfZPDyBZK%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1734930359.2592
+    'REQUEST_TIME' => 1734930359
+]
+2024-12-23 06:07:22 [::1][-][l4tqfvketd7nqghf4o544uh2mj][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [1044] Access denied for user 'admin'@'%' to database 'db_toko' in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php:722
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(722): PDO->__construct('mysql:host=192....', 'admin', 'admin123', NULL)
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(637): yii\db\Connection->createPdoInstance()
+#2 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#3 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#4 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo(true)
+#5 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(1181): yii\db\Command->prepare(true)
+#6 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(417): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(366): yii\db\Command->queryAll()
+#8 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(134): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema('kasir')
+#10 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata('kasir', 'schema', false)
+#11 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(439): yii\db\Schema->getTableSchema('kasir')
+#12 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(473): yii\db\ActiveRecord::getTableSchema()
+#13 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(498): yii\db\ActiveRecord->attributes()
+#14 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(289): yii\db\BaseActiveRecord->hasAttribute('id_kasir')
+#15 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\validators\Validator.php(257): yii\db\BaseActiveRecord->__get('id_kasir')
+#16 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Model.php(368): yii\validators\Validator->validateAttributes(Object(app\models\KasirSearch), Array)
+#17 C:\xampp 10\basic10\basic\models\KasirSearch.php(53): yii\base\Model->validate()
+#18 C:\xampp 10\basic10\basic\controllers\KasirController.php(42): app\models\KasirSearch->search(Array)
+#19 [internal function]: app\controllers\KasirController->actionIndex()
+#20 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#21 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#22 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('', Array)
+#23 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('kasir', Array)
+#24 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#26 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [1044] Access denied for user 'admin'@'%' to database 'db_toko' in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php:648
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#2 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo(true)
+#3 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(1181): yii\db\Command->prepare(true)
+#4 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(417): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(366): yii\db\Command->queryAll()
+#6 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(134): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema('kasir')
+#8 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata('kasir', 'schema', false)
+#9 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(439): yii\db\Schema->getTableSchema('kasir')
+#10 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(473): yii\db\ActiveRecord::getTableSchema()
+#11 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(498): yii\db\ActiveRecord->attributes()
+#12 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(289): yii\db\BaseActiveRecord->hasAttribute('id_kasir')
+#13 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\validators\Validator.php(257): yii\db\BaseActiveRecord->__get('id_kasir')
+#14 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Model.php(368): yii\validators\Validator->validateAttributes(Object(app\models\KasirSearch), Array)
+#15 C:\xampp 10\basic10\basic\models\KasirSearch.php(53): yii\base\Model->validate()
+#16 C:\xampp 10\basic10\basic\controllers\KasirController.php(42): app\models\KasirSearch->search(Array)
+#17 [internal function]: app\controllers\KasirController->actionIndex()
+#18 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#19 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#20 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('', Array)
+#21 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('kasir', Array)
+#22 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#24 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 1044
+    [2] => Access denied for user 'admin'@'%' to database 'db_toko'
+)
+
+2024-12-23 06:07:22 [::1][-][l4tqfvketd7nqghf4o544uh2mj][info][application] $_GET = [
+    'r' => 'kasir'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l4tqfvketd7nqghf4o544uh2mj'
+    '_csrf' => 'a7e4b40d4d539f71167aee34c836cc7e10ec964be0c3d8a74dea238d9afff5bea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"rRt2AVIoseT7yAYodP-KShXsjLaxjVxo\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp 10\\basic10\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '65014'
+    'SERVER_SOFTWARE' => 'PHP 8.0.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=kasir'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp 10\\basic10\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=kasir'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=l4tqfvketd7nqghf4o544uh2mj; _csrf=a7e4b40d4d539f71167aee34c836cc7e10ec964be0c3d8a74dea238d9afff5bea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22rRt2AVIoseT7yAYodP-KShXsjLaxjVxo%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1734930442.6584
+    'REQUEST_TIME' => 1734930442
+]
+2024-12-23 09:27:12 [::1][-][hsuv5cfklmqps73scl4q1i1lqm][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php:722
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(722): PDO->__construct('mysql:host=192....', 'anam', '123', NULL)
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(637): yii\db\Connection->createPdoInstance()
+#2 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#3 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#4 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo(true)
+#5 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(1181): yii\db\Command->prepare(true)
+#6 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(417): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(366): yii\db\Command->queryAll()
+#8 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(134): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema('pelanggan')
+#10 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata('pelanggan', 'schema', false)
+#11 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(439): yii\db\Schema->getTableSchema('pelanggan')
+#12 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(473): yii\db\ActiveRecord::getTableSchema()
+#13 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(498): yii\db\ActiveRecord->attributes()
+#14 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(289): yii\db\BaseActiveRecord->hasAttribute('id_pelanggan')
+#15 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\validators\Validator.php(257): yii\db\BaseActiveRecord->__get('id_pelanggan')
+#16 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Model.php(368): yii\validators\Validator->validateAttributes(Object(app\models\PelangganSearch), Array)
+#17 C:\xampp 10\basic10\basic\models\PelangganSearch.php(53): yii\base\Model->validate()
+#18 C:\xampp 10\basic10\basic\controllers\PelangganController.php(42): app\models\PelangganSearch->search(Array)
+#19 [internal function]: app\controllers\PelangganController->actionIndex()
+#20 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#21 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#22 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('', Array)
+#23 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('pelanggan', Array)
+#24 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#26 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php:648
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#2 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo(true)
+#3 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(1181): yii\db\Command->prepare(true)
+#4 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(417): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(366): yii\db\Command->queryAll()
+#6 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(134): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema('pelanggan')
+#8 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata('pelanggan', 'schema', false)
+#9 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(439): yii\db\Schema->getTableSchema('pelanggan')
+#10 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(473): yii\db\ActiveRecord::getTableSchema()
+#11 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(498): yii\db\ActiveRecord->attributes()
+#12 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(289): yii\db\BaseActiveRecord->hasAttribute('id_pelanggan')
+#13 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\validators\Validator.php(257): yii\db\BaseActiveRecord->__get('id_pelanggan')
+#14 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Model.php(368): yii\validators\Validator->validateAttributes(Object(app\models\PelangganSearch), Array)
+#15 C:\xampp 10\basic10\basic\models\PelangganSearch.php(53): yii\base\Model->validate()
+#16 C:\xampp 10\basic10\basic\controllers\PelangganController.php(42): app\models\PelangganSearch->search(Array)
+#17 [internal function]: app\controllers\PelangganController->actionIndex()
+#18 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#19 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#20 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('', Array)
+#21 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('pelanggan', Array)
+#22 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#24 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 2002
+    [2] => No connection could be made because the target machine actively refused it
+)
+
+2024-12-23 09:27:09 [::1][-][hsuv5cfklmqps73scl4q1i1lqm][info][application] $_GET = [
+    'r' => 'pelanggan'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'hsuv5cfklmqps73scl4q1i1lqm'
+    '_csrf' => 'b4290fb06965f7fb844536eb60ea0b085f1ff7ce9e3e6aec52b95e31d19587fba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"yD-kctlARgIKgMWjl6egcm9AEB2vw-1M\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp 10\\basic10\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60804'
+    'SERVER_SOFTWARE' => 'PHP 8.0.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=pelanggan'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp 10\\basic10\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=pelanggan'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=hsuv5cfklmqps73scl4q1i1lqm; _csrf=b4290fb06965f7fb844536eb60ea0b085f1ff7ce9e3e6aec52b95e31d19587fba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22yD-kctlARgIKgMWjl6egcm9AEB2vw-1M%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1734942429.9342
+    'REQUEST_TIME' => 1734942429
+]
+2024-12-23 09:28:26 [::1][-][hj0ppglcaoo3kq9ml00cb3cj67][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php:722
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(722): PDO->__construct('mysql:host=192....', 'anam', '123', NULL)
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(637): yii\db\Connection->createPdoInstance()
+#2 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#3 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#4 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo(true)
+#5 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(1181): yii\db\Command->prepare(true)
+#6 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(417): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(366): yii\db\Command->queryAll()
+#8 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(134): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema('pelanggan')
+#10 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata('pelanggan', 'schema', false)
+#11 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(439): yii\db\Schema->getTableSchema('pelanggan')
+#12 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(473): yii\db\ActiveRecord::getTableSchema()
+#13 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(498): yii\db\ActiveRecord->attributes()
+#14 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(289): yii\db\BaseActiveRecord->hasAttribute('id_pelanggan')
+#15 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\validators\Validator.php(257): yii\db\BaseActiveRecord->__get('id_pelanggan')
+#16 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Model.php(368): yii\validators\Validator->validateAttributes(Object(app\models\PelangganSearch), Array)
+#17 C:\xampp 10\basic10\basic\models\PelangganSearch.php(53): yii\base\Model->validate()
+#18 C:\xampp 10\basic10\basic\controllers\PelangganController.php(42): app\models\PelangganSearch->search(Array)
+#19 [internal function]: app\controllers\PelangganController->actionIndex()
+#20 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#21 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#22 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('', Array)
+#23 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('pelanggan', Array)
+#24 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#26 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php:648
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#2 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo(true)
+#3 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(1181): yii\db\Command->prepare(true)
+#4 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(417): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(366): yii\db\Command->queryAll()
+#6 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(134): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema('pelanggan')
+#8 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata('pelanggan', 'schema', false)
+#9 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(439): yii\db\Schema->getTableSchema('pelanggan')
+#10 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(473): yii\db\ActiveRecord::getTableSchema()
+#11 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(498): yii\db\ActiveRecord->attributes()
+#12 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(289): yii\db\BaseActiveRecord->hasAttribute('id_pelanggan')
+#13 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\validators\Validator.php(257): yii\db\BaseActiveRecord->__get('id_pelanggan')
+#14 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Model.php(368): yii\validators\Validator->validateAttributes(Object(app\models\PelangganSearch), Array)
+#15 C:\xampp 10\basic10\basic\models\PelangganSearch.php(53): yii\base\Model->validate()
+#16 C:\xampp 10\basic10\basic\controllers\PelangganController.php(42): app\models\PelangganSearch->search(Array)
+#17 [internal function]: app\controllers\PelangganController->actionIndex()
+#18 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#19 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#20 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('', Array)
+#21 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('pelanggan', Array)
+#22 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#24 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 2002
+    [2] => No connection could be made because the target machine actively refused it
+)
+
+2024-12-23 09:28:23 [::1][-][hj0ppglcaoo3kq9ml00cb3cj67][info][application] $_GET = [
+    'r' => 'pelanggan'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'hj0ppglcaoo3kq9ml00cb3cj67'
+    '_csrf' => 'f1b9216f4b7a5d6f889474a3f6e38b8b0be09133400a5e9ad8141f3d65944a61a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"d57JpF6vF5v6xa5Pw5U6ImuoeFONGWDO\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp 10\\basic10\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60904'
+    'SERVER_SOFTWARE' => 'PHP 8.0.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=pelanggan'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp 10\\basic10\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=pelanggan'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=hj0ppglcaoo3kq9ml00cb3cj67; _csrf=f1b9216f4b7a5d6f889474a3f6e38b8b0be09133400a5e9ad8141f3d65944a61a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22d57JpF6vF5v6xa5Pw5U6ImuoeFONGWDO%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1734942503.2531
+    'REQUEST_TIME' => 1734942503
+]
+2024-12-23 09:28:57 [::1][-][hj0ppglcaoo3kq9ml00cb3cj67][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php:722
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(722): PDO->__construct('mysql:host=192....', 'anam', '123', NULL)
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(637): yii\db\Connection->createPdoInstance()
+#2 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#3 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#4 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo(true)
+#5 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(1181): yii\db\Command->prepare(true)
+#6 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(417): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(366): yii\db\Command->queryAll()
+#8 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(134): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema('kasir')
+#10 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata('kasir', 'schema', false)
+#11 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(439): yii\db\Schema->getTableSchema('kasir')
+#12 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(473): yii\db\ActiveRecord::getTableSchema()
+#13 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(498): yii\db\ActiveRecord->attributes()
+#14 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(289): yii\db\BaseActiveRecord->hasAttribute('id_kasir')
+#15 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\validators\Validator.php(257): yii\db\BaseActiveRecord->__get('id_kasir')
+#16 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Model.php(368): yii\validators\Validator->validateAttributes(Object(app\models\KasirSearch), Array)
+#17 C:\xampp 10\basic10\basic\models\KasirSearch.php(53): yii\base\Model->validate()
+#18 C:\xampp 10\basic10\basic\controllers\KasirController.php(42): app\models\KasirSearch->search(Array)
+#19 [internal function]: app\controllers\KasirController->actionIndex()
+#20 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#21 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#22 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('', Array)
+#23 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('kasir', Array)
+#24 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#26 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php:648
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#2 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo(true)
+#3 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(1181): yii\db\Command->prepare(true)
+#4 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(417): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(366): yii\db\Command->queryAll()
+#6 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(134): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema('kasir')
+#8 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata('kasir', 'schema', false)
+#9 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(439): yii\db\Schema->getTableSchema('kasir')
+#10 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(473): yii\db\ActiveRecord::getTableSchema()
+#11 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(498): yii\db\ActiveRecord->attributes()
+#12 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(289): yii\db\BaseActiveRecord->hasAttribute('id_kasir')
+#13 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\validators\Validator.php(257): yii\db\BaseActiveRecord->__get('id_kasir')
+#14 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Model.php(368): yii\validators\Validator->validateAttributes(Object(app\models\KasirSearch), Array)
+#15 C:\xampp 10\basic10\basic\models\KasirSearch.php(53): yii\base\Model->validate()
+#16 C:\xampp 10\basic10\basic\controllers\KasirController.php(42): app\models\KasirSearch->search(Array)
+#17 [internal function]: app\controllers\KasirController->actionIndex()
+#18 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#19 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#20 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('', Array)
+#21 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('kasir', Array)
+#22 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#24 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 2002
+    [2] => No connection could be made because the target machine actively refused it
+)
+
+2024-12-23 09:28:54 [::1][-][hj0ppglcaoo3kq9ml00cb3cj67][info][application] $_GET = [
+    'r' => 'kasir'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'hj0ppglcaoo3kq9ml00cb3cj67'
+    '_csrf' => 'f1b9216f4b7a5d6f889474a3f6e38b8b0be09133400a5e9ad8141f3d65944a61a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"d57JpF6vF5v6xa5Pw5U6ImuoeFONGWDO\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp 10\\basic10\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60928'
+    'SERVER_SOFTWARE' => 'PHP 8.0.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=kasir'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp 10\\basic10\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=kasir'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_SEC_PURPOSE' => 'prefetch;prerender'
+    'HTTP_PURPOSE' => 'prefetch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=hj0ppglcaoo3kq9ml00cb3cj67; _csrf=f1b9216f4b7a5d6f889474a3f6e38b8b0be09133400a5e9ad8141f3d65944a61a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22d57JpF6vF5v6xa5Pw5U6ImuoeFONGWDO%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1734942534.7892
+    'REQUEST_TIME' => 1734942534
+]
+2024-12-23 09:29:00 [::1][-][hj0ppglcaoo3kq9ml00cb3cj67][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php:722
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(722): PDO->__construct('mysql:host=192....', 'anam', '123', NULL)
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(637): yii\db\Connection->createPdoInstance()
+#2 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#3 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#4 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo(true)
+#5 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(1181): yii\db\Command->prepare(true)
+#6 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(417): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(366): yii\db\Command->queryAll()
+#8 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(134): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema('kasir')
+#10 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata('kasir', 'schema', false)
+#11 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(439): yii\db\Schema->getTableSchema('kasir')
+#12 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(473): yii\db\ActiveRecord::getTableSchema()
+#13 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(498): yii\db\ActiveRecord->attributes()
+#14 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(289): yii\db\BaseActiveRecord->hasAttribute('id_kasir')
+#15 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\validators\Validator.php(257): yii\db\BaseActiveRecord->__get('id_kasir')
+#16 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Model.php(368): yii\validators\Validator->validateAttributes(Object(app\models\KasirSearch), Array)
+#17 C:\xampp 10\basic10\basic\models\KasirSearch.php(53): yii\base\Model->validate()
+#18 C:\xampp 10\basic10\basic\controllers\KasirController.php(42): app\models\KasirSearch->search(Array)
+#19 [internal function]: app\controllers\KasirController->actionIndex()
+#20 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#21 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#22 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('', Array)
+#23 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('kasir', Array)
+#24 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#26 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php:648
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#2 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo(true)
+#3 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(1181): yii\db\Command->prepare(true)
+#4 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(417): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(366): yii\db\Command->queryAll()
+#6 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(134): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema('kasir')
+#8 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata('kasir', 'schema', false)
+#9 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(439): yii\db\Schema->getTableSchema('kasir')
+#10 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(473): yii\db\ActiveRecord::getTableSchema()
+#11 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(498): yii\db\ActiveRecord->attributes()
+#12 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(289): yii\db\BaseActiveRecord->hasAttribute('id_kasir')
+#13 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\validators\Validator.php(257): yii\db\BaseActiveRecord->__get('id_kasir')
+#14 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Model.php(368): yii\validators\Validator->validateAttributes(Object(app\models\KasirSearch), Array)
+#15 C:\xampp 10\basic10\basic\models\KasirSearch.php(53): yii\base\Model->validate()
+#16 C:\xampp 10\basic10\basic\controllers\KasirController.php(42): app\models\KasirSearch->search(Array)
+#17 [internal function]: app\controllers\KasirController->actionIndex()
+#18 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#19 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#20 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('', Array)
+#21 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('kasir', Array)
+#22 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#24 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 2002
+    [2] => No connection could be made because the target machine actively refused it
+)
+
+2024-12-23 09:28:57 [::1][-][hj0ppglcaoo3kq9ml00cb3cj67][info][application] $_GET = [
+    'r' => 'kasir'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'hj0ppglcaoo3kq9ml00cb3cj67'
+    '_csrf' => 'f1b9216f4b7a5d6f889474a3f6e38b8b0be09133400a5e9ad8141f3d65944a61a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"d57JpF6vF5v6xa5Pw5U6ImuoeFONGWDO\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp 10\\basic10\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60930'
+    'SERVER_SOFTWARE' => 'PHP 8.0.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=kasir'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp 10\\basic10\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=kasir'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=hj0ppglcaoo3kq9ml00cb3cj67; _csrf=f1b9216f4b7a5d6f889474a3f6e38b8b0be09133400a5e9ad8141f3d65944a61a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22d57JpF6vF5v6xa5Pw5U6ImuoeFONGWDO%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1734942537.5762
+    'REQUEST_TIME' => 1734942537
+]
+2024-12-23 09:29:08 [::1][-][hj0ppglcaoo3kq9ml00cb3cj67][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php:722
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(722): PDO->__construct('mysql:host=192....', 'anam', '123', NULL)
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(637): yii\db\Connection->createPdoInstance()
+#2 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#3 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#4 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo(true)
+#5 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(1181): yii\db\Command->prepare(true)
+#6 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(417): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(366): yii\db\Command->queryAll()
+#8 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(134): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema('supplier')
+#10 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata('supplier', 'schema', false)
+#11 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(439): yii\db\Schema->getTableSchema('supplier')
+#12 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(473): yii\db\ActiveRecord::getTableSchema()
+#13 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(498): yii\db\ActiveRecord->attributes()
+#14 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(289): yii\db\BaseActiveRecord->hasAttribute('id_supplier')
+#15 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\validators\Validator.php(257): yii\db\BaseActiveRecord->__get('id_supplier')
+#16 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Model.php(368): yii\validators\Validator->validateAttributes(Object(app\models\SupplierSearch), Array)
+#17 C:\xampp 10\basic10\basic\models\SupplierSearch.php(53): yii\base\Model->validate()
+#18 C:\xampp 10\basic10\basic\controllers\SupplierController.php(42): app\models\SupplierSearch->search(Array)
+#19 [internal function]: app\controllers\SupplierController->actionIndex()
+#20 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#21 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#22 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('', Array)
+#23 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('supplier', Array)
+#24 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#26 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php:648
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#2 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo(true)
+#3 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(1181): yii\db\Command->prepare(true)
+#4 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(417): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(366): yii\db\Command->queryAll()
+#6 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(134): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema('supplier')
+#8 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata('supplier', 'schema', false)
+#9 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(439): yii\db\Schema->getTableSchema('supplier')
+#10 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(473): yii\db\ActiveRecord::getTableSchema()
+#11 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(498): yii\db\ActiveRecord->attributes()
+#12 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(289): yii\db\BaseActiveRecord->hasAttribute('id_supplier')
+#13 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\validators\Validator.php(257): yii\db\BaseActiveRecord->__get('id_supplier')
+#14 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Model.php(368): yii\validators\Validator->validateAttributes(Object(app\models\SupplierSearch), Array)
+#15 C:\xampp 10\basic10\basic\models\SupplierSearch.php(53): yii\base\Model->validate()
+#16 C:\xampp 10\basic10\basic\controllers\SupplierController.php(42): app\models\SupplierSearch->search(Array)
+#17 [internal function]: app\controllers\SupplierController->actionIndex()
+#18 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#19 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#20 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('', Array)
+#21 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('supplier', Array)
+#22 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#24 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 2002
+    [2] => No connection could be made because the target machine actively refused it
+)
+
+2024-12-23 09:29:06 [::1][-][hj0ppglcaoo3kq9ml00cb3cj67][info][application] $_GET = [
+    'r' => 'supplier'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'hj0ppglcaoo3kq9ml00cb3cj67'
+    '_csrf' => 'f1b9216f4b7a5d6f889474a3f6e38b8b0be09133400a5e9ad8141f3d65944a61a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"d57JpF6vF5v6xa5Pw5U6ImuoeFONGWDO\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp 10\\basic10\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60935'
+    'SERVER_SOFTWARE' => 'PHP 8.0.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=supplier'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp 10\\basic10\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=supplier'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=hj0ppglcaoo3kq9ml00cb3cj67; _csrf=f1b9216f4b7a5d6f889474a3f6e38b8b0be09133400a5e9ad8141f3d65944a61a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22d57JpF6vF5v6xa5Pw5U6ImuoeFONGWDO%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1734942546.1341
+    'REQUEST_TIME' => 1734942546
+]
+2024-12-23 09:29:34 [::1][-][hj0ppglcaoo3kq9ml00cb3cj67][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php:722
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(722): PDO->__construct('mysql:host=192....', 'anam', '123', NULL)
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(637): yii\db\Connection->createPdoInstance()
+#2 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#3 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#4 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo(true)
+#5 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(1181): yii\db\Command->prepare(true)
+#6 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(417): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(366): yii\db\Command->queryAll()
+#8 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(134): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema('bahan_dasar')
+#10 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata('bahan_dasar', 'schema', false)
+#11 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(439): yii\db\Schema->getTableSchema('bahan_dasar')
+#12 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(473): yii\db\ActiveRecord::getTableSchema()
+#13 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(498): yii\db\ActiveRecord->attributes()
+#14 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(289): yii\db\BaseActiveRecord->hasAttribute('id_bahan')
+#15 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\validators\Validator.php(257): yii\db\BaseActiveRecord->__get('id_bahan')
+#16 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Model.php(368): yii\validators\Validator->validateAttributes(Object(app\models\BahanDasarSearch), Array)
+#17 C:\xampp 10\basic10\basic\models\BahanDasarSearch.php(53): yii\base\Model->validate()
+#18 C:\xampp 10\basic10\basic\controllers\BahanDasarController.php(42): app\models\BahanDasarSearch->search(Array)
+#19 [internal function]: app\controllers\BahanDasarController->actionIndex()
+#20 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#21 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#22 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('', Array)
+#23 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('bahan-dasar', Array)
+#24 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#26 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php:648
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#2 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo(true)
+#3 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(1181): yii\db\Command->prepare(true)
+#4 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(417): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(366): yii\db\Command->queryAll()
+#6 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(134): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema('bahan_dasar')
+#8 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata('bahan_dasar', 'schema', false)
+#9 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(439): yii\db\Schema->getTableSchema('bahan_dasar')
+#10 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(473): yii\db\ActiveRecord::getTableSchema()
+#11 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(498): yii\db\ActiveRecord->attributes()
+#12 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(289): yii\db\BaseActiveRecord->hasAttribute('id_bahan')
+#13 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\validators\Validator.php(257): yii\db\BaseActiveRecord->__get('id_bahan')
+#14 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Model.php(368): yii\validators\Validator->validateAttributes(Object(app\models\BahanDasarSearch), Array)
+#15 C:\xampp 10\basic10\basic\models\BahanDasarSearch.php(53): yii\base\Model->validate()
+#16 C:\xampp 10\basic10\basic\controllers\BahanDasarController.php(42): app\models\BahanDasarSearch->search(Array)
+#17 [internal function]: app\controllers\BahanDasarController->actionIndex()
+#18 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#19 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#20 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('', Array)
+#21 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('bahan-dasar', Array)
+#22 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#24 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 2002
+    [2] => No connection could be made because the target machine actively refused it
+)
+
+2024-12-23 09:29:31 [::1][-][hj0ppglcaoo3kq9ml00cb3cj67][info][application] $_GET = [
+    'r' => 'bahan-dasar'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'hj0ppglcaoo3kq9ml00cb3cj67'
+    '_csrf' => 'f1b9216f4b7a5d6f889474a3f6e38b8b0be09133400a5e9ad8141f3d65944a61a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"d57JpF6vF5v6xa5Pw5U6ImuoeFONGWDO\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp 10\\basic10\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60951'
+    'SERVER_SOFTWARE' => 'PHP 8.0.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=bahan-dasar'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp 10\\basic10\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=bahan-dasar'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=hj0ppglcaoo3kq9ml00cb3cj67; _csrf=f1b9216f4b7a5d6f889474a3f6e38b8b0be09133400a5e9ad8141f3d65944a61a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22d57JpF6vF5v6xa5Pw5U6ImuoeFONGWDO%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1734942571.6047
+    'REQUEST_TIME' => 1734942571
+]
+2024-12-23 09:34:11 [::1][-][9sire9dcpc139cfpieuh541248][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php:722
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(722): PDO->__construct('mysql:host=192....', 'anam', '123', NULL)
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(637): yii\db\Connection->createPdoInstance()
+#2 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#3 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#4 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo(true)
+#5 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(1181): yii\db\Command->prepare(true)
+#6 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(417): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(366): yii\db\Command->queryAll()
+#8 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(134): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema('kasir')
+#10 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata('kasir', 'schema', false)
+#11 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(439): yii\db\Schema->getTableSchema('kasir')
+#12 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(473): yii\db\ActiveRecord::getTableSchema()
+#13 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(498): yii\db\ActiveRecord->attributes()
+#14 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(289): yii\db\BaseActiveRecord->hasAttribute('id_kasir')
+#15 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\validators\Validator.php(257): yii\db\BaseActiveRecord->__get('id_kasir')
+#16 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Model.php(368): yii\validators\Validator->validateAttributes(Object(app\models\KasirSearch), Array)
+#17 C:\xampp 10\basic10\basic\models\KasirSearch.php(53): yii\base\Model->validate()
+#18 C:\xampp 10\basic10\basic\controllers\KasirController.php(42): app\models\KasirSearch->search(Array)
+#19 [internal function]: app\controllers\KasirController->actionIndex()
+#20 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#21 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#22 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('', Array)
+#23 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('kasir', Array)
+#24 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#26 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php:648
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#2 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo(true)
+#3 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(1181): yii\db\Command->prepare(true)
+#4 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(417): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(366): yii\db\Command->queryAll()
+#6 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(134): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema('kasir')
+#8 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata('kasir', 'schema', false)
+#9 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(439): yii\db\Schema->getTableSchema('kasir')
+#10 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(473): yii\db\ActiveRecord::getTableSchema()
+#11 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(498): yii\db\ActiveRecord->attributes()
+#12 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(289): yii\db\BaseActiveRecord->hasAttribute('id_kasir')
+#13 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\validators\Validator.php(257): yii\db\BaseActiveRecord->__get('id_kasir')
+#14 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Model.php(368): yii\validators\Validator->validateAttributes(Object(app\models\KasirSearch), Array)
+#15 C:\xampp 10\basic10\basic\models\KasirSearch.php(53): yii\base\Model->validate()
+#16 C:\xampp 10\basic10\basic\controllers\KasirController.php(42): app\models\KasirSearch->search(Array)
+#17 [internal function]: app\controllers\KasirController->actionIndex()
+#18 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#19 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#20 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('', Array)
+#21 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('kasir', Array)
+#22 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#24 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 2002
+    [2] => No connection could be made because the target machine actively refused it
+)
+
+2024-12-23 09:34:08 [::1][-][9sire9dcpc139cfpieuh541248][info][application] $_GET = [
+    'r' => 'kasir'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '9sire9dcpc139cfpieuh541248'
+    '_csrf' => '1987cad677e6840ea84827b8e431cb06d1b82c46c54b5584737bc7de4b35fc79a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_45a5yucB4Om-gwqy_342O_k_q_ab2Lt\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp 10\\basic10\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '61098'
+    'SERVER_SOFTWARE' => 'PHP 8.0.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=kasir'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp 10\\basic10\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=kasir'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_SEC_PURPOSE' => 'prefetch;prerender'
+    'HTTP_PURPOSE' => 'prefetch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=9sire9dcpc139cfpieuh541248; _csrf=1987cad677e6840ea84827b8e431cb06d1b82c46c54b5584737bc7de4b35fc79a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_45a5yucB4Om-gwqy_342O_k_q_ab2Lt%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1734942848.6365
+    'REQUEST_TIME' => 1734942848
+]
+2024-12-23 09:34:16 [::1][-][9sire9dcpc139cfpieuh541248][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php:722
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(722): PDO->__construct('mysql:host=192....', 'anam', '123', NULL)
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(637): yii\db\Connection->createPdoInstance()
+#2 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#3 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#4 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo(true)
+#5 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(1181): yii\db\Command->prepare(true)
+#6 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(417): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(366): yii\db\Command->queryAll()
+#8 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(134): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema('supplier')
+#10 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata('supplier', 'schema', false)
+#11 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(439): yii\db\Schema->getTableSchema('supplier')
+#12 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(473): yii\db\ActiveRecord::getTableSchema()
+#13 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(498): yii\db\ActiveRecord->attributes()
+#14 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(289): yii\db\BaseActiveRecord->hasAttribute('id_supplier')
+#15 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\validators\Validator.php(257): yii\db\BaseActiveRecord->__get('id_supplier')
+#16 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Model.php(368): yii\validators\Validator->validateAttributes(Object(app\models\SupplierSearch), Array)
+#17 C:\xampp 10\basic10\basic\models\SupplierSearch.php(53): yii\base\Model->validate()
+#18 C:\xampp 10\basic10\basic\controllers\SupplierController.php(42): app\models\SupplierSearch->search(Array)
+#19 [internal function]: app\controllers\SupplierController->actionIndex()
+#20 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#21 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#22 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('', Array)
+#23 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('supplier', Array)
+#24 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#26 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php:648
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#2 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo(true)
+#3 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(1181): yii\db\Command->prepare(true)
+#4 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(417): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(366): yii\db\Command->queryAll()
+#6 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(134): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema('supplier')
+#8 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata('supplier', 'schema', false)
+#9 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(439): yii\db\Schema->getTableSchema('supplier')
+#10 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(473): yii\db\ActiveRecord::getTableSchema()
+#11 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(498): yii\db\ActiveRecord->attributes()
+#12 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(289): yii\db\BaseActiveRecord->hasAttribute('id_supplier')
+#13 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\validators\Validator.php(257): yii\db\BaseActiveRecord->__get('id_supplier')
+#14 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Model.php(368): yii\validators\Validator->validateAttributes(Object(app\models\SupplierSearch), Array)
+#15 C:\xampp 10\basic10\basic\models\SupplierSearch.php(53): yii\base\Model->validate()
+#16 C:\xampp 10\basic10\basic\controllers\SupplierController.php(42): app\models\SupplierSearch->search(Array)
+#17 [internal function]: app\controllers\SupplierController->actionIndex()
+#18 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#19 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#20 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('', Array)
+#21 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('supplier', Array)
+#22 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#24 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 2002
+    [2] => No connection could be made because the target machine actively refused it
+)
+
+2024-12-23 09:34:14 [::1][-][9sire9dcpc139cfpieuh541248][info][application] $_GET = [
+    'r' => 'supplier'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '9sire9dcpc139cfpieuh541248'
+    '_csrf' => '1987cad677e6840ea84827b8e431cb06d1b82c46c54b5584737bc7de4b35fc79a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_45a5yucB4Om-gwqy_342O_k_q_ab2Lt\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp 10\\basic10\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '61104'
+    'SERVER_SOFTWARE' => 'PHP 8.0.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=supplier'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp 10\\basic10\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=supplier'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=9sire9dcpc139cfpieuh541248; _csrf=1987cad677e6840ea84827b8e431cb06d1b82c46c54b5584737bc7de4b35fc79a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_45a5yucB4Om-gwqy_342O_k_q_ab2Lt%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1734942854.0606
+    'REQUEST_TIME' => 1734942854
+]
+2024-12-23 09:51:30 [::1][-][7p7sves1s840n62779pbm5vs9c][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Missing required parameters: id_supplier in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Controller.php:199
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\InlineAction.php(51): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#2 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('view', Array)
+#3 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('supplier/view', Array)
+#4 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#6 {main}
+2024-12-23 09:51:30 [::1][-][7p7sves1s840n62779pbm5vs9c][info][application] $_GET = [
+    'r' => 'supplier/view'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7p7sves1s840n62779pbm5vs9c'
+    '_csrf' => '9ee808fca3b2f1845316811e9d1d5688797d8d6ffa0ff1b5e46f4a40ff4f3aaca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SeV4AflsLVynjwRq-ruG3mLioxc68DqS\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp 10\\basic10\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '61511'
+    'SERVER_SOFTWARE' => 'PHP 8.0.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=supplier%2Fview'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp 10\\basic10\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=supplier%2Fview'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=supplier%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=7p7sves1s840n62779pbm5vs9c; _csrf=9ee808fca3b2f1845316811e9d1d5688797d8d6ffa0ff1b5e46f4a40ff4f3aaca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SeV4AflsLVynjwRq-ruG3mLioxc68DqS%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1734943890.3524
+    'REQUEST_TIME' => 1734943890
+]
+2024-12-23 10:17:09 [::1][-][phvvgpk1c0jm24iajcah2ks64m][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php:722
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(722): PDO->__construct('mysql:host=192....', 'replika', '123', NULL)
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(637): yii\db\Connection->createPdoInstance()
+#2 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#3 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#4 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo(true)
+#5 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(1181): yii\db\Command->prepare(true)
+#6 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(417): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(366): yii\db\Command->queryAll()
+#8 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(134): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema('kasir')
+#10 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata('kasir', 'schema', false)
+#11 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(439): yii\db\Schema->getTableSchema('kasir')
+#12 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(473): yii\db\ActiveRecord::getTableSchema()
+#13 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(498): yii\db\ActiveRecord->attributes()
+#14 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(289): yii\db\BaseActiveRecord->hasAttribute('id_kasir')
+#15 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\validators\Validator.php(257): yii\db\BaseActiveRecord->__get('id_kasir')
+#16 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Model.php(368): yii\validators\Validator->validateAttributes(Object(app\models\KasirSearch), Array)
+#17 C:\xampp 10\basic10\basic\models\KasirSearch.php(53): yii\base\Model->validate()
+#18 C:\xampp 10\basic10\basic\controllers\KasirController.php(42): app\models\KasirSearch->search(Array)
+#19 [internal function]: app\controllers\KasirController->actionIndex()
+#20 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#21 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#22 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('', Array)
+#23 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('kasir', Array)
+#24 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#26 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php:648
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#2 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo(true)
+#3 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(1181): yii\db\Command->prepare(true)
+#4 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(417): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(366): yii\db\Command->queryAll()
+#6 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(134): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema('kasir')
+#8 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata('kasir', 'schema', false)
+#9 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(439): yii\db\Schema->getTableSchema('kasir')
+#10 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(473): yii\db\ActiveRecord::getTableSchema()
+#11 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(498): yii\db\ActiveRecord->attributes()
+#12 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(289): yii\db\BaseActiveRecord->hasAttribute('id_kasir')
+#13 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\validators\Validator.php(257): yii\db\BaseActiveRecord->__get('id_kasir')
+#14 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Model.php(368): yii\validators\Validator->validateAttributes(Object(app\models\KasirSearch), Array)
+#15 C:\xampp 10\basic10\basic\models\KasirSearch.php(53): yii\base\Model->validate()
+#16 C:\xampp 10\basic10\basic\controllers\KasirController.php(42): app\models\KasirSearch->search(Array)
+#17 [internal function]: app\controllers\KasirController->actionIndex()
+#18 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#19 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#20 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('', Array)
+#21 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('kasir', Array)
+#22 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#24 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 2002
+    [2] => No connection could be made because the target machine actively refused it
+)
+
+2024-12-23 10:17:06 [::1][-][phvvgpk1c0jm24iajcah2ks64m][info][application] $_GET = [
+    'r' => 'kasir'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'phvvgpk1c0jm24iajcah2ks64m'
+    '_csrf' => '5796872775396f68731e2cd9b3b9802a9d07548edbccde45b6632f6ef5dbea3ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"gbnm3K5LkIYUwfZSMumD0Hj1di2blbmx\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp 10\\basic10\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '62188'
+    'SERVER_SOFTWARE' => 'PHP 8.0.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=kasir'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp 10\\basic10\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=kasir'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_SEC_PURPOSE' => 'prefetch;prerender'
+    'HTTP_PURPOSE' => 'prefetch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=phvvgpk1c0jm24iajcah2ks64m; _csrf=5796872775396f68731e2cd9b3b9802a9d07548edbccde45b6632f6ef5dbea3ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22gbnm3K5LkIYUwfZSMumD0Hj1di2blbmx%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1734945426.7626
+    'REQUEST_TIME' => 1734945426
+]
+2024-12-23 10:17:12 [::1][-][phvvgpk1c0jm24iajcah2ks64m][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php:722
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(722): PDO->__construct('mysql:host=192....', 'replika', '123', NULL)
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(637): yii\db\Connection->createPdoInstance()
+#2 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#3 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#4 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo(true)
+#5 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(1181): yii\db\Command->prepare(true)
+#6 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(417): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(366): yii\db\Command->queryAll()
+#8 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(134): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema('kasir')
+#10 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata('kasir', 'schema', false)
+#11 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(439): yii\db\Schema->getTableSchema('kasir')
+#12 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(473): yii\db\ActiveRecord::getTableSchema()
+#13 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(498): yii\db\ActiveRecord->attributes()
+#14 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(289): yii\db\BaseActiveRecord->hasAttribute('id_kasir')
+#15 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\validators\Validator.php(257): yii\db\BaseActiveRecord->__get('id_kasir')
+#16 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Model.php(368): yii\validators\Validator->validateAttributes(Object(app\models\KasirSearch), Array)
+#17 C:\xampp 10\basic10\basic\models\KasirSearch.php(53): yii\base\Model->validate()
+#18 C:\xampp 10\basic10\basic\controllers\KasirController.php(42): app\models\KasirSearch->search(Array)
+#19 [internal function]: app\controllers\KasirController->actionIndex()
+#20 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#21 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#22 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('', Array)
+#23 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('kasir', Array)
+#24 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#26 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php:648
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#2 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo(true)
+#3 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(1181): yii\db\Command->prepare(true)
+#4 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(417): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(366): yii\db\Command->queryAll()
+#6 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(134): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema('kasir')
+#8 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata('kasir', 'schema', false)
+#9 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(439): yii\db\Schema->getTableSchema('kasir')
+#10 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(473): yii\db\ActiveRecord::getTableSchema()
+#11 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(498): yii\db\ActiveRecord->attributes()
+#12 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(289): yii\db\BaseActiveRecord->hasAttribute('id_kasir')
+#13 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\validators\Validator.php(257): yii\db\BaseActiveRecord->__get('id_kasir')
+#14 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Model.php(368): yii\validators\Validator->validateAttributes(Object(app\models\KasirSearch), Array)
+#15 C:\xampp 10\basic10\basic\models\KasirSearch.php(53): yii\base\Model->validate()
+#16 C:\xampp 10\basic10\basic\controllers\KasirController.php(42): app\models\KasirSearch->search(Array)
+#17 [internal function]: app\controllers\KasirController->actionIndex()
+#18 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#19 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#20 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('', Array)
+#21 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('kasir', Array)
+#22 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#24 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 2002
+    [2] => No connection could be made because the target machine actively refused it
+)
+
+2024-12-23 10:17:09 [::1][-][phvvgpk1c0jm24iajcah2ks64m][info][application] $_GET = [
+    'r' => 'kasir'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'phvvgpk1c0jm24iajcah2ks64m'
+    '_csrf' => '5796872775396f68731e2cd9b3b9802a9d07548edbccde45b6632f6ef5dbea3ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"gbnm3K5LkIYUwfZSMumD0Hj1di2blbmx\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp 10\\basic10\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '62190'
+    'SERVER_SOFTWARE' => 'PHP 8.0.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=kasir'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp 10\\basic10\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=kasir'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=phvvgpk1c0jm24iajcah2ks64m; _csrf=5796872775396f68731e2cd9b3b9802a9d07548edbccde45b6632f6ef5dbea3ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22gbnm3K5LkIYUwfZSMumD0Hj1di2blbmx%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1734945429.5693
+    'REQUEST_TIME' => 1734945429
+]
+2024-12-23 10:42:27 [::1][-][ccv6krfo5k3arovd457vn8hlhs][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Missing required parameters: id_supplier in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Controller.php:199
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\InlineAction.php(51): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#2 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('view', Array)
+#3 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('supplier/view', Array)
+#4 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#6 {main}
+2024-12-23 10:42:27 [::1][-][ccv6krfo5k3arovd457vn8hlhs][info][application] $_GET = [
+    'r' => 'supplier/view'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ccv6krfo5k3arovd457vn8hlhs'
+    '_csrf' => '43856a1c7be5da667c72ec8a604803398eef1ef3e81ecc19f71ac4785d69897ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"S-Fbq4bYh7s-wFVplF_YOTM6HbFp-xz7\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp 10\\basic10\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63025'
+    'SERVER_SOFTWARE' => 'PHP 8.0.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=supplier%2Fview'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp 10\\basic10\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=supplier%2Fview'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=supplier%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=ccv6krfo5k3arovd457vn8hlhs; _csrf=43856a1c7be5da667c72ec8a604803398eef1ef3e81ecc19f71ac4785d69897ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22S-Fbq4bYh7s-wFVplF_YOTM6HbFp-xz7%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1734946947.3305
+    'REQUEST_TIME' => 1734946947
+]
+2024-12-23 10:43:07 [::1][-][ccv6krfo5k3arovd457vn8hlhs][error][yii\db\IntegrityException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY' in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php:1320
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(1320): PDOStatement->execute()
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(1120): yii\db\Command->internalExecute('INSERT INTO `su...')
+#2 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(431): yii\db\Command->execute()
+#3 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(604): yii\db\Schema->insert('supplier', Array)
+#4 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(570): yii\db\ActiveRecord->insertInternal(NULL)
+#5 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(688): yii\db\ActiveRecord->insert(true, NULL)
+#6 C:\xampp 10\basic10\basic\controllers\SupplierController.php(73): yii\db\BaseActiveRecord->save()
+#7 [internal function]: app\controllers\SupplierController->actionCreate()
+#8 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('create', Array)
+#11 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('supplier/create', Array)
+#12 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\IntegrityException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+The SQL being executed was: INSERT INTO `supplier` (`nama`, `kontak`) VALUES ('parlan', '08975244312') in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php:676
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(1325): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `su...')
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(1120): yii\db\Command->internalExecute('INSERT INTO `su...')
+#2 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(431): yii\db\Command->execute()
+#3 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(604): yii\db\Schema->insert('supplier', Array)
+#4 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(570): yii\db\ActiveRecord->insertInternal(NULL)
+#5 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(688): yii\db\ActiveRecord->insert(true, NULL)
+#6 C:\xampp 10\basic10\basic\controllers\SupplierController.php(73): yii\db\BaseActiveRecord->save()
+#7 [internal function]: app\controllers\SupplierController->actionCreate()
+#8 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('create', Array)
+#11 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('supplier/create', Array)
+#12 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1062
+    [2] => Duplicate entry '0' for key 'PRIMARY'
+)
+
+2024-12-23 10:43:06 [::1][-][ccv6krfo5k3arovd457vn8hlhs][info][application] $_GET = [
+    'r' => 'supplier/create'
+]
+
+$_POST = [
+    '_csrf' => 'l_V_Jk-94KLGEBcU9T3Dc62WOsLCa5XMRvsMQyG1aJ7E2DlEPomC-64nZDmCe5UDwdBlm40_2PoOmUozDM0SqQ=='
+    'Supplier' => [
+        'nama' => 'parlan'
+        'kontak' => '08975244312'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ccv6krfo5k3arovd457vn8hlhs'
+    '_csrf' => '43856a1c7be5da667c72ec8a604803398eef1ef3e81ecc19f71ac4785d69897ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"S-Fbq4bYh7s-wFVplF_YOTM6HbFp-xz7\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp 10\\basic10\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63109'
+    'SERVER_SOFTWARE' => 'PHP 8.0.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=supplier%2Fcreate'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp 10\\basic10\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=supplier%2Fcreate'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '157'
+    'HTTP_CONTENT_LENGTH' => '157'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=supplier%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=ccv6krfo5k3arovd457vn8hlhs; _csrf=43856a1c7be5da667c72ec8a604803398eef1ef3e81ecc19f71ac4785d69897ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22S-Fbq4bYh7s-wFVplF_YOTM6HbFp-xz7%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1734946986.7753
+    'REQUEST_TIME' => 1734946986
+]
+2024-12-23 10:48:19 [::1][-][ccv6krfo5k3arovd457vn8hlhs][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Missing required parameters: id_supplier in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Controller.php:199
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\InlineAction.php(51): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#2 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('view', Array)
+#3 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('supplier/view', Array)
+#4 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#6 {main}
+2024-12-23 10:48:19 [::1][-][ccv6krfo5k3arovd457vn8hlhs][info][application] $_GET = [
+    'r' => 'supplier/view'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ccv6krfo5k3arovd457vn8hlhs'
+    '_csrf' => '43856a1c7be5da667c72ec8a604803398eef1ef3e81ecc19f71ac4785d69897ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"S-Fbq4bYh7s-wFVplF_YOTM6HbFp-xz7\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp 10\\basic10\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63291'
+    'SERVER_SOFTWARE' => 'PHP 8.0.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=supplier%2Fview'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp 10\\basic10\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=supplier%2Fview'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=supplier%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=ccv6krfo5k3arovd457vn8hlhs; _csrf=43856a1c7be5da667c72ec8a604803398eef1ef3e81ecc19f71ac4785d69897ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22S-Fbq4bYh7s-wFVplF_YOTM6HbFp-xz7%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1734947299.6976
+    'REQUEST_TIME' => 1734947299
+]
+2024-12-23 10:49:11 [::1][-][ccv6krfo5k3arovd457vn8hlhs][error][yii\db\IntegrityException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY' in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php:1320
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(1320): PDOStatement->execute()
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(1120): yii\db\Command->internalExecute('INSERT INTO `su...')
+#2 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(431): yii\db\Command->execute()
+#3 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(604): yii\db\Schema->insert('supplier', Array)
+#4 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(570): yii\db\ActiveRecord->insertInternal(NULL)
+#5 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(688): yii\db\ActiveRecord->insert(true, NULL)
+#6 C:\xampp 10\basic10\basic\controllers\SupplierController.php(73): yii\db\BaseActiveRecord->save()
+#7 [internal function]: app\controllers\SupplierController->actionCreate()
+#8 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('create', Array)
+#11 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('supplier/create', Array)
+#12 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\IntegrityException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+The SQL being executed was: INSERT INTO `supplier` (`nama`, `kontak`) VALUES ('parlan', '08975244312') in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php:676
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(1325): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `su...')
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(1120): yii\db\Command->internalExecute('INSERT INTO `su...')
+#2 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(431): yii\db\Command->execute()
+#3 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(604): yii\db\Schema->insert('supplier', Array)
+#4 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(570): yii\db\ActiveRecord->insertInternal(NULL)
+#5 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(688): yii\db\ActiveRecord->insert(true, NULL)
+#6 C:\xampp 10\basic10\basic\controllers\SupplierController.php(73): yii\db\BaseActiveRecord->save()
+#7 [internal function]: app\controllers\SupplierController->actionCreate()
+#8 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('create', Array)
+#11 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('supplier/create', Array)
+#12 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1062
+    [2] => Duplicate entry '0' for key 'PRIMARY'
+)
+
+2024-12-23 10:49:10 [::1][-][ccv6krfo5k3arovd457vn8hlhs][info][application] $_GET = [
+    'r' => 'supplier/create'
+]
+
+$_POST = [
+    '_csrf' => 'mXJKExkeM7Pn_yqkwKbyhnWo3a7ItDe-nqumjBo9mMXKXwxxaCpR6o_IWYm34KT2Ge6C94fgeojWyeD8N0Xi8g=='
+    'Supplier' => [
+        'nama' => 'parlan'
+        'kontak' => '08975244312'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ccv6krfo5k3arovd457vn8hlhs'
+    '_csrf' => '43856a1c7be5da667c72ec8a604803398eef1ef3e81ecc19f71ac4785d69897ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"S-Fbq4bYh7s-wFVplF_YOTM6HbFp-xz7\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp 10\\basic10\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63353'
+    'SERVER_SOFTWARE' => 'PHP 8.0.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=supplier%2Fcreate'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp 10\\basic10\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=supplier%2Fcreate'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '157'
+    'HTTP_CONTENT_LENGTH' => '157'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=supplier%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=ccv6krfo5k3arovd457vn8hlhs; _csrf=43856a1c7be5da667c72ec8a604803398eef1ef3e81ecc19f71ac4785d69897ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22S-Fbq4bYh7s-wFVplF_YOTM6HbFp-xz7%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1734947350.6662
+    'REQUEST_TIME' => 1734947350
+]
+2024-12-24 03:56:08 [::1][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php:722
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(722): PDO->__construct('mysql:host=192....', 'anam', 'anam123', NULL)
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(637): yii\db\Connection->createPdoInstance()
+#2 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#3 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#4 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo(true)
+#5 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(1181): yii\db\Command->prepare(true)
+#6 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(417): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(366): yii\db\Command->queryAll()
+#8 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(134): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema('transaksi')
+#10 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata('transaksi', 'schema', false)
+#11 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(439): yii\db\Schema->getTableSchema('transaksi')
+#12 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(473): yii\db\ActiveRecord::getTableSchema()
+#13 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(498): yii\db\ActiveRecord->attributes()
+#14 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(289): yii\db\BaseActiveRecord->hasAttribute('id_transaksi')
+#15 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\validators\Validator.php(257): yii\db\BaseActiveRecord->__get('id_transaksi')
+#16 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Model.php(368): yii\validators\Validator->validateAttributes(Object(app\models\TransaksiSearch), Array)
+#17 C:\xampp 10\basic10\basic\models\TransaksiSearch.php(53): yii\base\Model->validate()
+#18 C:\xampp 10\basic10\basic\controllers\TransaksiController.php(42): app\models\TransaksiSearch->search(Array)
+#19 [internal function]: app\controllers\TransaksiController->actionIndex()
+#20 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#21 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#22 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('index', Array)
+#23 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('transaksi/index', Array)
+#24 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#26 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php:648
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#2 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo(true)
+#3 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(1181): yii\db\Command->prepare(true)
+#4 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(417): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(366): yii\db\Command->queryAll()
+#6 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(134): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema('transaksi')
+#8 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata('transaksi', 'schema', false)
+#9 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(439): yii\db\Schema->getTableSchema('transaksi')
+#10 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(473): yii\db\ActiveRecord::getTableSchema()
+#11 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(498): yii\db\ActiveRecord->attributes()
+#12 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(289): yii\db\BaseActiveRecord->hasAttribute('id_transaksi')
+#13 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\validators\Validator.php(257): yii\db\BaseActiveRecord->__get('id_transaksi')
+#14 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Model.php(368): yii\validators\Validator->validateAttributes(Object(app\models\TransaksiSearch), Array)
+#15 C:\xampp 10\basic10\basic\models\TransaksiSearch.php(53): yii\base\Model->validate()
+#16 C:\xampp 10\basic10\basic\controllers\TransaksiController.php(42): app\models\TransaksiSearch->search(Array)
+#17 [internal function]: app\controllers\TransaksiController->actionIndex()
+#18 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#19 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#20 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('index', Array)
+#21 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('transaksi/index', Array)
+#22 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#24 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 2002
+    [2] => A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+)
+
+2024-12-24 03:55:47 [::1][-][-][info][application] $_GET = [
+    'r' => 'transaksi/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'f8r4gpqbh67l0vf6m9aqksjenm'
+    '_csrf' => 'b4641ac832bce51ec097726ecb29b65b8e231e22ff5cdf965c71e6c0965196c0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"CBpza7M4X_seYn2A5Q98f8GQVWAUTeR2\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp 10\\basic10\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '65017'
+    'SERVER_SOFTWARE' => 'PHP 8.0.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=transaksi%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp 10\\basic10\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=transaksi%2Findex'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=transaksi%2Fview&id_transaksi=2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=f8r4gpqbh67l0vf6m9aqksjenm; _csrf=b4641ac832bce51ec097726ecb29b65b8e231e22ff5cdf965c71e6c0965196c0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22CBpza7M4X_seYn2A5Q98f8GQVWAUTeR2%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1735008947.2812
+    'REQUEST_TIME' => 1735008947
+]
+2024-12-24 03:56:29 [::1][-][f8r4gpqbh67l0vf6m9aqksjenm][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php:722
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(722): PDO->__construct('mysql:host=192....', 'anam', 'anam123', NULL)
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(637): yii\db\Connection->createPdoInstance()
+#2 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#3 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#4 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo(true)
+#5 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(1181): yii\db\Command->prepare(true)
+#6 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(417): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(366): yii\db\Command->queryAll()
+#8 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(134): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema('transaksi')
+#10 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata('transaksi', 'schema', false)
+#11 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(439): yii\db\Schema->getTableSchema('transaksi')
+#12 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(473): yii\db\ActiveRecord::getTableSchema()
+#13 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(498): yii\db\ActiveRecord->attributes()
+#14 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(289): yii\db\BaseActiveRecord->hasAttribute('id_transaksi')
+#15 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\validators\Validator.php(257): yii\db\BaseActiveRecord->__get('id_transaksi')
+#16 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Model.php(368): yii\validators\Validator->validateAttributes(Object(app\models\TransaksiSearch), Array)
+#17 C:\xampp 10\basic10\basic\models\TransaksiSearch.php(53): yii\base\Model->validate()
+#18 C:\xampp 10\basic10\basic\controllers\TransaksiController.php(42): app\models\TransaksiSearch->search(Array)
+#19 [internal function]: app\controllers\TransaksiController->actionIndex()
+#20 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#21 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#22 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('index', Array)
+#23 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('transaksi/index', Array)
+#24 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#26 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php:648
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#2 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo(true)
+#3 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(1181): yii\db\Command->prepare(true)
+#4 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(417): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(366): yii\db\Command->queryAll()
+#6 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(134): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema('transaksi')
+#8 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata('transaksi', 'schema', false)
+#9 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(439): yii\db\Schema->getTableSchema('transaksi')
+#10 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(473): yii\db\ActiveRecord::getTableSchema()
+#11 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(498): yii\db\ActiveRecord->attributes()
+#12 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(289): yii\db\BaseActiveRecord->hasAttribute('id_transaksi')
+#13 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\validators\Validator.php(257): yii\db\BaseActiveRecord->__get('id_transaksi')
+#14 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Model.php(368): yii\validators\Validator->validateAttributes(Object(app\models\TransaksiSearch), Array)
+#15 C:\xampp 10\basic10\basic\models\TransaksiSearch.php(53): yii\base\Model->validate()
+#16 C:\xampp 10\basic10\basic\controllers\TransaksiController.php(42): app\models\TransaksiSearch->search(Array)
+#17 [internal function]: app\controllers\TransaksiController->actionIndex()
+#18 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#19 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#20 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('index', Array)
+#21 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('transaksi/index', Array)
+#22 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#24 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 2002
+    [2] => A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+)
+
+2024-12-24 03:56:08 [::1][-][f8r4gpqbh67l0vf6m9aqksjenm][info][application] $_GET = [
+    'r' => 'transaksi/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'f8r4gpqbh67l0vf6m9aqksjenm'
+    '_csrf' => 'b4641ac832bce51ec097726ecb29b65b8e231e22ff5cdf965c71e6c0965196c0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"CBpza7M4X_seYn2A5Q98f8GQVWAUTeR2\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp 10\\basic10\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '65026'
+    'SERVER_SOFTWARE' => 'PHP 8.0.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=transaksi%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp 10\\basic10\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=transaksi%2Findex'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=transaksi%2Fview&id_transaksi=2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=f8r4gpqbh67l0vf6m9aqksjenm; _csrf=b4641ac832bce51ec097726ecb29b65b8e231e22ff5cdf965c71e6c0965196c0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22CBpza7M4X_seYn2A5Q98f8GQVWAUTeR2%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1735008968.5413
+    'REQUEST_TIME' => 1735008968
+]
+2024-12-24 05:27:56 [::1][-][35v72cco59pblj3nabfqmljpr0][error][yii\db\IntegrityException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`dbtoko`.`transaksi`, CONSTRAINT `transaksi_ibfk_1` FOREIGN KEY (`id_pelanggan`) REFERENCES `pelanggan` (`id_pelanggan`)) in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php:1320
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(1320): PDOStatement->execute()
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(1120): yii\db\Command->internalExecute('DELETE FROM `pe...')
+#2 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(405): yii\db\Command->execute()
+#3 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(765): yii\db\ActiveRecord::deleteAll(Array)
+#4 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(724): yii\db\ActiveRecord->deleteInternal()
+#5 C:\xampp 10\basic10\basic\controllers\PelangganController.php(114): yii\db\ActiveRecord->delete()
+#6 [internal function]: app\controllers\PelangganController->actionDelete('3')
+#7 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('delete', Array)
+#10 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('pelanggan/delet...', Array)
+#11 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#13 {main}
+
+Next yii\db\IntegrityException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`dbtoko`.`transaksi`, CONSTRAINT `transaksi_ibfk_1` FOREIGN KEY (`id_pelanggan`) REFERENCES `pelanggan` (`id_pelanggan`))
+The SQL being executed was: DELETE FROM `pelanggan` WHERE `id_pelanggan`=3 in C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Schema.php:676
+Stack trace:
+#0 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(1325): yii\db\Schema->convertException(Object(PDOException), 'DELETE FROM `pe...')
+#1 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\Command.php(1120): yii\db\Command->internalExecute('DELETE FROM `pe...')
+#2 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(405): yii\db\Command->execute()
+#3 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(765): yii\db\ActiveRecord::deleteAll(Array)
+#4 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(724): yii\db\ActiveRecord->deleteInternal()
+#5 C:\xampp 10\basic10\basic\controllers\PelangganController.php(114): yii\db\ActiveRecord->delete()
+#6 [internal function]: app\controllers\PelangganController->actionDelete('3')
+#7 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('delete', Array)
+#10 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('pelanggan/delet...', Array)
+#11 C:\xampp 10\basic10\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp 10\basic10\basic\web\index.php(12): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1451
+    [2] => Cannot delete or update a parent row: a foreign key constraint fails (`dbtoko`.`transaksi`, CONSTRAINT `transaksi_ibfk_1` FOREIGN KEY (`id_pelanggan`) REFERENCES `pelanggan` (`id_pelanggan`))
+)
+
+2024-12-24 05:27:56 [::1][-][35v72cco59pblj3nabfqmljpr0][info][application] $_GET = [
+    'r' => 'pelanggan/delete'
+    'id_pelanggan' => '3'
+]
+
+$_POST = [
+    '_csrf' => 'cQ0TZtE2MvcpRgTGRL0rpP92mlh1GFROqq0G7RMzoO4-SmYShF9CwhEWW6Bpx1ydugL2ag8uYCnu-U-MdgXx2g=='
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '35v72cco59pblj3nabfqmljpr0'
+    '_csrf' => '8d18c098bb4e242e1757d479c9e7406978ff9cb5a7f414015cad603b7e08b6dda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"OGutUip58P_f-zw9Etl2z64gDTIae6Q4\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp 10\\basic10\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '59089'
+    'SERVER_SOFTWARE' => 'PHP 8.0.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=pelanggan%2Fdelete&id_pelanggan=3'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp 10\\basic10\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=pelanggan%2Fdelete&id_pelanggan=3'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '98'
+    'HTTP_CONTENT_LENGTH' => '98'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=pelanggan'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=35v72cco59pblj3nabfqmljpr0; _csrf=8d18c098bb4e242e1757d479c9e7406978ff9cb5a7f414015cad603b7e08b6dda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22OGutUip58P_f-zw9Etl2z64gDTIae6Q4%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1735014476.3625
+    'REQUEST_TIME' => 1735014476
+]
